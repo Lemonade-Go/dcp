@@ -1,0 +1,21 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/badgerodon/collections",
+			"repository": "https://github.com/badgerodon/collections",
+			"vcs": "git",
+			"revision": "604e922904d35e97f98a774db7881f049cd8d970",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/golang-collections/collections",
+			"repository": "https://github.com/golang-collections/collections",
+			"vcs": "git",
+			"revision": "604e922904d35e97f98a774db7881f049cd8d970",
+			"branch": "master",
+			"notests": true
+		}
+	]
+}
