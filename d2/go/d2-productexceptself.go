@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	//Soultion with Hashmap, but i think its n^2 complexity
-	listinput := []int{1, 2, 3, 4}
+	listinput := []int{1, 2, 3, 4, 5}
 	list1 := []int{}
 	list2 := []int{}
 
@@ -29,8 +29,8 @@ func main() {
 
 	// o(n) solution - InProgress
 
-	list3 := [4]int{}
-	list4 := [4]int{}
+	list3 := [5]int{}
+	list4 := [5]int{}
 
 	p := 1
 	for i := 0; i < len(listinput); i++ {
