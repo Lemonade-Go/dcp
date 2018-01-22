@@ -8,6 +8,9 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 
     Constraint - This is not an o(n) solution. Its n^2 complexity
 
-* Split and Two array approach - 
+* Split and Two array approach 
+    1) Built the left array with all elements of its left from each indexed element
+    2) Built the Right array with all elements of its from right each indexed element (iterate from backwards)
+    3) ResultArray = leftarray[i] * rightarray[i]
 
 
